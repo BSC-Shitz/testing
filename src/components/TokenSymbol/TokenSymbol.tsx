@@ -2,6 +2,7 @@ import React from 'react';
 
 import BNBLogo from '../../assets/img/bnb.png'
 import Farmer from '../../assets/img/farmer.png'
+import Farmer from '../../assets/img/acs.png'
 
 
 const logosBySymbol: {[title: string]: string} = {
