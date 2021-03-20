@@ -40,7 +40,7 @@ export const farmDefinitions: { [contractName: string]: FarmInfo } = {
     finished: false,
     sort: 1
   },
-    SHITZLPPoolACS: {
+  SHITZLPPoolACS: {
     name: "Stake SHITZ/BNB FLIP, earn ACS",
     contract: "ShitzLP",
     depositTokenName: "SHITZ-BNB-FLIP",
