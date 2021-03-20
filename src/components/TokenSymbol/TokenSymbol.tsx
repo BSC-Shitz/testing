@@ -1,13 +1,13 @@
 import React from 'react';
 
 import BNBLogo from '../../assets/img/bnb.png'
-import ACSLogo from '../../assets/img/acs.png'
+import ACS from '../../assets/img/acs.png'
 import Farmer from '../../assets/img/farmer.png'
 
 
 const logosBySymbol: {[title: string]: string} = {
   'BNB': BNBLogo,
-  'ACS': ACSLogo,
+  'ACS': ACS,
   'SHITZ-BNB-FLIP': Farmer
 };
 
