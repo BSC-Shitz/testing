@@ -16,7 +16,7 @@ const Farms: React.FC = () => {
     <Switch>
       <Page>
         <Route exact path={path}>
-          <PageHeader icon={'👋'} title="WELCOME" subtitle="BSC SHITZ is a token on the Binance Smart Chain offering duration based staking pools for SHITZ/BNB Liquidity Providers. Stake your LP Below" />
+          <PageHeader icon={'💩'} title="WELCOME" subtitle="BSC SHITZ is a token on the Binance Smart Chain offering duration based staking pools for SHITZ/BNB Liquidity Providers. Stake your LP Below" />
           {!!account ? (
             <FarmCards />
           ) : (
