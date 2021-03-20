@@ -6,7 +6,7 @@ const Nav: React.FC = () => {
   return (
     <StyledNav>
       <StyledLink exact activeClassName="active" to="/">Home</StyledLink>
-      <a target="_blank" href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies">Policies</a>
+      <StyledLink><a target="_blank" href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies">Policies</a></StyledLink>
     </StyledNav>
   )
 }
@@ -30,19 +30,6 @@ const StyledLink = styled(NavLink)`
   }
 `
 const StyledLink2 = styled.a`
-  color: ${props => props.theme.color.grey[400]};
-  font-weight: 700;
-  padding-left: ${props => props.theme.spacing[3]}px;
-  padding-right: ${props => props.theme.spacing[3]}px;
-  text-decoration: none;
-  &:hover {
-    color: ${props => props.theme.color.grey[500]};
-  }
-  &.active {
-    color: ${props => props.theme.color.primary.main};
-  }
-`
-const a = styled.a`
   color: ${props => props.theme.color.grey[400]};
   font-weight: 700;
   padding-left: ${props => props.theme.spacing[3]}px;
