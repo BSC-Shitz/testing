@@ -7,9 +7,6 @@ import Farmer from '../../assets/img/farmer.png'
 
 const logosBySymbol: {[title: string]: string} = {
   'BNB': BNBLogo,
-  'SHITZ-BNB-FLIP': Farmer
-},
-const logosBySymbol: {[title: string]: string} = {
   'ACS': ACSLogo,
   'SHITZ-BNB-FLIP': Farmer
 };
@@ -34,4 +31,3 @@ const TokenSymbol: React.FC<BasisLogoProps> = ({ symbol, size = 64 }) => {
 };
 
 export default TokenSymbol;
-
