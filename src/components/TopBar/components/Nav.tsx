@@ -7,6 +7,7 @@ const Nav: React.FC = () => {
     <StyledNav>
       <StyledLink exact activeClassName="active" to="/">Home</StyledLink>
       <StyledLink to="https://docs.shitz.lol/" target="_blank">DOCS</StyledLink>
+      <StyledLink href="https://t.me/bscshitz" target="_blank">Telegram</StyledLink>
     </StyledNav>
   )
 }
