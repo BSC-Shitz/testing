@@ -1,7 +1,7 @@
 import React from 'react';
 
 import BNBLogo from '../../assets/img/bnb.png'
-import Farmer from '../../assets/img/acs.png'
+import ACSLogo from '../../assets/img/acs.png'
 import Farmer from '../../assets/img/farmer.png'
 
 
