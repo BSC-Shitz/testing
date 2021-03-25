@@ -13,7 +13,7 @@ const configurations: { [env: string]: Configuration } = {
     externalTokens: {
       // Add tokens here for deposit tokens like so:
       // 'CAKE: ['0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82', 18]
-      'SHITZ-BNB-FLIP': ['0x8Fd8b18327431998053B651A9df0967d96d28dFd', 18],
+      'SHITZ-BNB-FLIP': ['0x8Fd8b18327431998053B651A9df0967d96d28dFd', 18]
       'SHITZ': ['0xac3e4ffaf6463736cef17c2c5b064a17f2472f26', 18]
     },
     refreshInterval: 30000,
