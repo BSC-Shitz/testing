@@ -8,7 +8,7 @@ import Farmer from '../../assets/img/farmer.png'
 const logosBySymbol: {[title: string]: string} = {
   'ACS': ACSLogo,
   'WBNB': BNBLogo,
-  'SHITZ-BNB-FLIP': Farmer
+  'SHITZ-BNB-FLIP': Farmer,
   'SHITZ': SHITZLogo
 };
 
