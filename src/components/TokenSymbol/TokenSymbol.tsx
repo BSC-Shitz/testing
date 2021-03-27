@@ -9,6 +9,7 @@ const logosBySymbol: {[title: string]: string} = {
   'ACS': ACSLogo,
   'WBNB': BNBLogo,
   'SHITZ-BNB-FLIP': Farmer
+  'SHITZ': SHITZLogo
 };
 
 type BasisLogoProps = {
