@@ -48,9 +48,9 @@ export const farmDefinitions: { [contractName: string]: FarmInfo } = {
     finished: false,
     sort: 2
   },
-  SHITZLPshitz: {
+  SHITZLPP: {
     name: "Stake SHITZ/BNB FLIP, earn SHITZ",
-    contract: "SHITZLPshitz",
+    contract: "SHITZLPP",
     depositTokenName: "SHITZ-BNB-FLIP",
     earnTokenName: "SHITZ",
     finished: false,
