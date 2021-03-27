@@ -3,6 +3,7 @@ import React from 'react';
 import BNBLogo from '../../assets/img/bnb.png'
 import ACSLogo from '../../assets/img/acs.png'
 import Farmer from '../../assets/img/farmer.png'
+import Farmer from '../../assets/img/shitz.png'
 
 
 const logosBySymbol: {[title: string]: string} = {
