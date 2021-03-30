@@ -4,13 +4,14 @@ import BNBLogo from '../../assets/img/bnb.png'
 import ACSLogo from '../../assets/img/acs.png'
 import Farmer from '../../assets/img/farmer.png'
 import SHITZLogo from '../../assets/img/shitz.png'
-
+import BRRLLogo from '../../assets/img/brrl.png'
 
 const logosBySymbol: {[title: string]: string} = {
   'ACS': ACSLogo,
   'WBNB': BNBLogo,
   'SHITZ-BNB-FLIP': Farmer,
-  'SHITZ': SHITZLogo
+  'SHITZ': SHITZLogo,
+  'BRRL': BRRLLogo
 };
 
 type BasisLogoProps = {

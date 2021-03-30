@@ -38,7 +38,7 @@ export const farmDefinitions: { [contractName: string]: FarmInfo } = {
     depositTokenName: "SHITZ-BNB-FLIP",
     earnTokenName: "WBNB",
     finished: false,
-    sort: 1
+    sort: 4
   },
   SHITZLPPoolACS: {
     name: "Stake SHITZ/BNB FLIP, earn ACS",
@@ -55,6 +55,14 @@ export const farmDefinitions: { [contractName: string]: FarmInfo } = {
     earnTokenName: "SHITZ",
     finished: false,
     sort: 3
+  },
+  SHITZLPBrrl: {
+    name: "Stake SHITZ/BNB FLIP, earn BRRL",
+    contract: "SHITZLPBrrl",
+    depositTokenName: "SHITZ-BNB-FLIP",
+    earnTokenName: "BRRL",
+    finished: false,
+    sort: 1
   }
 };
 
