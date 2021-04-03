@@ -71,7 +71,7 @@ export const farmDefinitions: { [contractName: string]: FarmInfo } = {
     earnTokenName: "REEF",
     finished: false,
     sort: 4
-  }
+  },
   SHITZLPPb: {
     name: "Stake SHITZ/BNB FLIP, earn PB 2114",
     contract: "SHITZLPPb",
