@@ -6,6 +6,7 @@ import Farmer from '../../assets/img/farmer.png'
 import SHITZLogo from '../../assets/img/shitz.png'
 import BRRLLogo from '../../assets/img/brrl.png'
 import REEFLogo from '../../assets/img/reef.png'
+import PB2114Logo from '../../assets/img/pb2114.png'
 
 const logosBySymbol: {[title: string]: string} = {
   'ACS': ACSLogo,
@@ -13,7 +14,8 @@ const logosBySymbol: {[title: string]: string} = {
   'SHITZ-BNB-FLIP': Farmer,
   'SHITZ': SHITZLogo,
   'BRRL': BRRLLogo,
-  'REEF': REEFLogo
+  'REEF': REEFLogo,
+  'PB 2114': PB2114Logo
 };
 
 type BasisLogoProps = {
